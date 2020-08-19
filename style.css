@@ -1,0 +1,29 @@
+header p {
+  background-color: green;
+}
+
+.red {
+  color: rgb(241, 35, 21);
+}
+
+.green {
+  color: green;
+  background-color: whitesmoke;
+}
+
+.footer {
+  background-color: orangered;
+}
+/* ul {
+  background-color: red;
+} */
+
+ul > li {
+  background: orangered;
+}
+
+h1 + h4 {
+  background: rosybrown;
+}
+
+/* .heading + .subheadings; */
