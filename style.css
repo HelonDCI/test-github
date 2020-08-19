@@ -1,7 +1,40 @@
-header p {
-  background-color: green;
+/* style for links that have not been visited yet */
+
+a:link {
+  color: blue;
 }
 
+a:hover {
+  background-color: maroon;
+}
+
+/* style for links that have breen visited */
+a:visited {
+  color: orangered;
+}
+
+/* style  for active links - aka pressing down*/
+a:active {
+  color: green;
+}
+
+h1:hover {
+  background-color: red;
+  color: teal;
+}
+
+header p {
+  background-color: green;
+  border-radius: 10px;
+}
+
+h1 {
+  background-color: yellow;
+}
+
+h2:hover {
+  color: teal;
+}
 .red {
   color: rgb(241, 35, 21);
 }
@@ -19,11 +52,20 @@ header p {
 } */
 
 ul > li {
-  background: orangered;
+  list-style-type: '\1F44D';
 }
 
 h1 + h4 {
   background: rosybrown;
 }
 
-/* .heading + .subheadings; */
+#recent-posts {
+  background-color: rgba(6, 231, 108, 0.856);
+  border: 10px solid teal;
+}
+
+.cat-img {
+  width: 200px;
+  border: 10px solid teal;
+  border-radius: 100px;
+}
