@@ -1,3 +1,11 @@
+a::before {
+  content: '♥';
+}
+
+a::after {
+  content: '♥';
+}
+
 /* style for links that have not been visited yet */
 
 a:link {
